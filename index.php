@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- This HTML page entails Josh Hatfield's professional portfolio, including supplementary information about career
+goals and trajectories, a viewable and downloable resume, a showcase of various projects completed, and contact information -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Josh Hatfield | Professional Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="icon" href="assets/images/linkedin-picture.jpg">
+
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxxjY18n23D87bAAPy5vGJVzkQ5pqBiK0&callback=console.debug&libraries=maps,marker&v=beta"></script>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile-picture.png" alt="Josh Hatfield - LinkedIn Picture" width="60">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Josh Hatfield">Josh Hatfield</h1>
+
+          <p class="title">IT Analyst</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:josh.o.hatfield@gmail.com" class="contact-link">josh.o.hatfield@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+13178004091" class="contact-link">+1 (317) 800-4091</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">July 22, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Greenwood, Indiana, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/joshua-o-hatfield/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/josh-o-hatfield/professional-portfolio" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            As an informatics graduate from the Luddy School of Informatics, Computing, and Engineering, I have
+            specialized in information technology and cybersecurity, domains that I am passionate about and eager to
+            apply in real-world settings.
+          </p>
+
+          <p>
+            I am seeking software engineering or IT analyst/advisory roles that will enable me to enhance an
+            organization's information technology posture by providing actionable business insights and implementing
+            robust technical solutions.
+          </p>
+
+          <p>
+            I have demonstrated my ability to collaborate with diverse stakeholders, analyze
+            complex data, and deliver high-quality results in various projects, such as improving talent acquisition
+            strategies for C.H. Robinson, building a Microsoft Access database and Excel workbook for the Robert Brown
+            Jackson County Juvenile Home, and mentoring a freshman student in the Kelley School of Business. I am a
+            motivated, adaptable, and creative problem-solver, ready to take on new challenges and learn new skills.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img id="it-image" src="./assets/images/icon-it.png" alt="it analysis icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IT Analysis</h4>
+
+                <p class="service-item-text">
+                  Support of IT infrastructure/processes to support business pipelines.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="software engineering icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software engineering</h4>
+
+                <p class="service-item-text">
+                  High-quality understanding of the SDLC and application integration.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img id="it-cybersecurity" src="./assets/images/icon-cyber-security.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cyber Security</h4>
+
+                <p class="service-item-text">
+                  Understanding of NIST standards and the MITRE ATT&CK framework.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Familiarity with modern web frameworks and UX prototyping.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - techstack
+        -->
+
+        <section class="techstack">
+
+          <h3 class="h3 techstack-title">Techstack</h3>
+
+            <!-- Flexes cards based on max width set -->
+            <div class="row1">
+              <section class="card python">
+                <a id="python" target="_blank" href="https://www.python.org/"><img src="assets/images/python-logo.png"
+                    alt="python language logo" title="Python link (more info)"></a>
+                <a target="_blank" href="https://www.python.org/" title="Python link (more info)">
+                  <h4 class="h4 service-item-title" id="python-header">Python</h4>
+                </a>
+              </section>
+              
+              <section class="card aws">
+                <a target="_blank" href="https://aws.amazon.com/"><img id="aws" src="assets/images/aws-logo.png" alt="aws logo"
+                    title="AWS link (more info)"></a>
+                <a target="_blank" href="https://aws.amazon.com/" title="AWS link (more info)">
+                  <h4 class="h4 service-item-title" id="aws-header">AWS</h4>
+                </a>
+              </section>
+              
+              <section class="card c">
+                <a target="_blank" href="https://www.programiz.com/c-programming"><img id="c" src="assets/images/c-logo.png" alt="c language logo"
+                    title="C link (more info)"></a>
+                <a target="_blank" href="https://www.programiz.com/c-programming" title="C link (more info)">
+                  <h4 class="h4 service-item-title" id="c-header">C Language</h4>
+                </a>
+              </section>
+              
+              <section class="card html5">
+                <a target="_blank" href="https://www.w3schools.com/html/"><img id="html5" src="assets/images/html5-logo.png" alt="html5 logo"
+                    title="HTML5 link (more info)"></a>
+                <a target="_blank" href="https://www.w3schools.com/html/" title="HTML5 link (more info)">
+                  <h4 class="h4 service-item-title" id="html-header">HTML5 Web</h4>
+                </a>
+              </section>
+              
+              <section class="card figma">
+                <a target="_blank" href="https://www.figma.com/"><img id="figma" src="assets/images/figma-logo.webp" alt="figma logo"
+                    title="Figma link (more info)"></a>
+                <a target="_blank" href="https://www.figma.com/" title="Figma link (more info)">
+                  <h4 class="h4 service-item-title" id="figma-header">Figma</h4>
+                </a>
+              </section>
+              
+              <section class="card eclipse">
+                <a target="_blank" href="https://eclipseide.org/"><img id="eclipse" src="assets/images/eclipse-logo.png" alt="eclipse logo"
+                    title="Eclipse link (more info)"></a>
+                <a target="_blank" href="https://eclipseide.org/" title="Eclipse link (more info)">
+                  <h4 class="h4 service-item-title" id="eclipse-header">Eclipse & Java</h4>
+                </a>
+              </section>
+
+              <section class="card mysql">
+                <a target="_blank" href="https://www.hostinger.com/tutorials/what-is-mysql"><img id="mysql" src="assets/images/mysql-logo.png" alt="mysql logo"
+                    title="MySQL link (more info)"></a>
+                <a target="_blank" href="https://www.hostinger.com/tutorials/what-is-mysql" title="MySQL link (more info)">
+                  <h4 class="h4 service-item-title" id="mysql-header">MySQL</h4>
+                </a>
+              </section>
+
+              <section class="card office">
+                <a target="_blank" href="https://www.microsoft.com/en-us/microsoft-365/microsoft-office"><img id="office" src="assets/images/microsoft-office-logo.png" alt="microsoft office logo"
+                    title="Microsoft Office link (more info)"></a>
+                <a target="_blank" href="https://www.microsoft.com/en-us/microsoft-365/microsoft-office" title="Microsoft Office link (more info)">
+                  <h4 class="h4 service-item-title" id="office-header">Office 365</h4>
+                </a>
+              </section>
+
+            </div>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/icon-testimonial.png" alt="To be updated" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>To be updated</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    To be updated.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/icon-testimonial.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>To be updated</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                   To be updated.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/icon-testimonial.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>To be updated</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    To be updated.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/icon-testimonial.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>To be updated</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    To be updated.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>To be updated</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  To be updated.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume<div class="button-position"><a class="download-resume-btn" href="assets/Resume_of_Josh_Hatfield.pdf">Download Resume</a></div></h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Profile</h3>  
+          </div>
+          <p class="profile-text">
+            Recent graduate in informatics seeking to employ my programming, SQL database management, and SDLC skills in a software
+            engineering or IT analyst role to enhance an organization&#39;s IT posture.
+          </p>
+        </section>
+
+        <section class="timeline technical-skills-section">
+          
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Technical Skills</h3>  
+          </div>
+          
+          <ol class="timeline-list">
+
+            <li class="timeline-item technical-item">
+            
+              <h4 class="h4 timeline-item-title">Certifications: <span class="technical-skills">ISC2 Certified in Cybersecurity (CC), AWS Certified Cloud Practitioner</span></h4>
+            
+            </li>
+
+            <li class="timeline-item technical-item">
+
+              <h4 class="h4 timeline-item-title technical-title">Programming Languages: <span class="technical-skills">Python, R/RStudio, C, Java, PHP</span></h4>
+
+            </li>
+
+            <li class="timeline-item technical-item">
+
+              <h4 class="h4 timeline-item-title technical-title">Platforms: <span class="technical-skills">Linux, Microsoft Windows</span></h4>
+
+            </li>
+
+            <li class="timeline-item technical-item">
+
+              <h4 class="h4 timeline-item-title technical-title">Databases: <span class="technical-skills">MySQL, MariaDB, Microsoft Access</span></h4>
+
+            </li>
+
+            <li class="timeline-item technical-item">
+
+              <h4 class="h4 timeline-item-title technical-title">Web Development: <span class="technical-skills">HTML5, Flask, JavaScript, CSS</span></h4>
+
+            </li>
+
+            <li class="timeline-item technical-item">
+
+              <h4 class="h4 timeline-item-title technical-title">Miscellaneous: 
+                <span class="technical-skills">
+                  JavaFX (MVC), Scene Builder, GitHub, Figma, NIST 800-171, NIST 800-53, Wireshark, Microsoft Excel, @RISK Monte Carlo, PuTTY, 
+                  IDE Development, Agile, Scrum, Consulting, UX Prototyping, SWOT Analysis, Risk Mitigation Analysis, MITRE ATT&amp;CK framework, 
+                  Microsoft Office, Presentations, Vagrant (Software), Optimization Models
+              
+              </span></h4>
+
+            </li>
+
+            <li class="timeline-item technical-item technical-item-hidden"></li>
+
+          </ol>
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item education-item">
+
+              <h4 class="h4 timeline-item-title">Indiana University, Bloomington &#8211; Luddy School of Informatics, Computing, and Engineering</h4>
+
+              <span>2019 &#8212; 2023</span>
+
+              <ul class="education-info">
+                <li><em>Bachelor of Science in Informatics, Summa Cum Laude</em></li>
+                <li>Minor: Security Informatics</li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item education-item education-item-hidden"></li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Coursework &#38; Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AptiStudy</h4>
+
+              <span>August 2022 &#8212; May 2023</span>
+
+              <ul class="experience-info">
+                
+                <li>Spearheaded comprehensive 130 page documentation for team web-based study group management application, encompassing
+                  database schema design, UX workflow through 30+ Figma wireframes, and governance considerations</li>
+                
+                <li>Engineered robust PHP JSON tokenization decoder to enhance session management for Google login API requests, contributing to
+                  improved security and seamless user authentication with the MySQL database</li>
+                
+                <li>Implemented CRUD logic for user profile and ticket support epics using Scrum methodology, HTML5, CSS, and JavaScript</li>
+                
+                <li>Facilitated user-centric refinements by coordinating 8 interviews, observations, and usability studies, leading to a 25%
+                  improvement in user satisfaction after final evaluations
+                  </li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning Intrusion Detection Research</h4>
+
+              <span>January 2023 &#8212; May 2023</span>
+
+              <ul class="experience-info">
+                
+                <li>Investigated and synthesized research for Systems and Protocol Security course, focusing on reducing data preprocessing latency,
+                  comparing classifiers, and identifying network isolation patterns advantageous to machine learning intrusion detection systems (IDS)</li>
+                
+                <li>Articulated findings as well as suggestions for IDS interoperability between network and kernel-level data to 50+ colleagues</li>
+              
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Java Team Project</h4>
+
+              <span>January 2023 &#8212; April 2023</span>
+
+              <ul class="experience-info">
+                
+                <li>Collaborated with four-member team within application development course, taking charge of designing and constructing frontend
+                  for Java-based order and customer management system using Scene Builder</li>
+                
+                <li>Integrated and tabularized pre-existing order data from CSV file into TableView columns upon program initialization, resulting in
+                  a 30% improvement in data accessibility for parsing order entries</li>
+  
+                <li>Orchestrated seamless interaction between application windows with JavaFX controllers, ensuring responsive UX upon satisfying
+                  predefined conditions and handling exceptions efficiently (e.g., enabling order confirmation functionality after validating inputs)</li>
+              
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">C Socket Encryption and Decryption Program</h4>
+
+              <span>November 2022 &#8212; December 2022</span>
+
+              <ul class="experience-info">
+
+                <li>Established UDP server with socket descriptor bound to server address, enabling client datagram delivery using sendto( ) method</li>
+              
+                <li>Applied decryption techniques to decode client&#39;s ciphertext, successfully transposing characters back to plaintext after deciphering
+                secret key attached to datagram</li>
+
+              </ul>
+
+            </li>
+
+            <li class="timeline-item project-item-hidden"></li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Leadership &#38; Involvement</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Hudson and Holland Scholar</h4>
+
+              <span>August 2019 &#8212; May 2023</span>
+
+              <ul class="experience-info">
+                
+                <li>Partook in annual Leadership, Engagement, Academic, and Diversity (LEAD) experiences through campus initiatives and seminars</li>
+                
+                <li>Delivered research on the financial paradigm for undergraduate student borrowers as part of the associated foundations course </li>
+                
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kelley-to-Kelley Mentoring Program</h4>
+
+              <span>June 2020 &#8212; June 2021</span>
+
+              <ul class="experience-info">
+                
+                <li>Provided guidance on course responsibilities, internship opportunities, and club involvement for freshman student in the Kelley
+                  School of Business, aiding their acclimatization to academic and professional roles</li>
+                
+                <li>Recommended additional resources and tutoring, contributing to the student&#39;s successful start in introductory business courses</li>
+              
+              </ul>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Presentations</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Research</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Presentations</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Research</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/josh-o-hatfield/professional-portfolio/tree/main/aptistudy-capstone-team-web-app" target="_blank">
+
+                <figure class="project-img aptistudy-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/aptistudy-project.png" alt="aptistudy" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AptiStudy</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+
+              <p class="project-desc">
+                Study group management application for IU students to find connections and academic success within their courses
+              </p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/josh-o-hatfield/professional-portfolio/tree/main/i360-travel-blog-website-project" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/travel-blog.png" alt="personal travel blog website" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Travel Blog Website</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+
+              <p class="project-desc">
+                Personal travel blog website encompassing responsive web design, comprehensive HTML5 and CSS styling, and other web integrations
+              </p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="presentations">
+              <a href="assets/topical_consultation_bitcoin_risks.pptx">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bitcoin-consult.png" alt="bitcoin topical consultation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bitcoin Risks (23 MB)</h3>
+
+                <p class="project-category">Presentations</p>
+
+              </a>
+
+              <p class="project-desc">
+                Presentation slides highlighting pervasive Sybil attack risks, buy-side crises from high illiquidity, and global energy consumption
+              </p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research">
+              <a href="assets/open-source-dependencies-cybersecurity-research.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/rce-research.png" alt="remote code execution research" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">RCE Taint Analysis (127 KB)</h3>
+
+                <p class="project-category">Research</p>
+
+              </a>
+
+              <p class="project-desc">
+                Research on existing static and taint analysis mitigation solutions for remote code execution within library dependency vulnerabilities
+              </p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research">
+              <a href="assets/tierra-encantada-team-consulting-project.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/tierra-encantada.png" alt="tierra encantada consulting paper" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Consulting Project (16 MB)</h3>
+
+                <p class="project-category">Research</p>
+
+              </a>
+
+              <p class="project-desc">
+                Comprehensive team consulting plan to help Tierra Encantada increase its daycare market proliferation into new U.S. cities
+              </p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research">
+              <a href="assets/machine-learning-ids-cybersecurity-research.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/machine-learning-ids-research.png" alt="machine learning intrusion detection systems" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ML Cyber Defense (104 KB)</h3>
+
+                <p class="project-category">Research</p>
+
+              </a>
+
+              <p class="project-desc">
+                Research on existing machine learning intrusion detection systems and ruminations for improved network-kernel latency
+              </p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="assets/ux-prototyping-team-project.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ux-prototyping.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UX Prototyping (6 MB)</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+
+              <p class="project-desc">
+                Team presentation slides encapsulating various user studies, fidelity prototypes, and iterations made based on user feedback
+              </p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research">
+              <a href="assets/byod-security-policy.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/byod-policy.png" alt="BYOD cybersecurity paper" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">BYOD Policy (131 KB)</h3>
+
+                <p class="project-category">Research</p>
+
+              </a>
+
+              <p class="project-desc">
+                Sample cyber security policy documentation for bring your own device (BYOD) acceptable practices within a fictitious consulting firm
+              </p>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/josh-o-hatfield/professional-portfolio/tree/main/java-javafx-order-management-project" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/java-project.png" alt="java team project" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Java Team Project</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+
+              <p class="project-desc">
+                Team-based order and customer management application used by internal employees for a fictitious product vendor
+              </p>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <gmp-map center="39.61431884765625,-86.10682678222656" zoom="14" map-id="DEMO_MAP_ID">
+            <gmp-advanced-marker position="39.61431884765625,-86.10682678222656" title="My location"></gmp-advanced-marker>
+          </gmp-map>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form method="post" class="form" data-form>
+          <?php
+            $errorMessage = ''; // Define $errorMessage
+            echo(!empty($errorMessage) ? $errorMessage : '');
+          ?>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+  <script>
+    const constraints = {
+      name: {
+        presence: { allowEmpty: false }
+      },
+      email: {
+        presence: { allowEmpty: false },
+        email: true
+      },
+      message: {
+        presence: { allowEmpty: false }
+      }
+    };
+
+    const form = document.getElementById('contact-form');
+    form.addEventListener('submit', function(event) {
+      const formValues = {
+        name: form.elements.name.value,
+        email: form.elements.email.value,
+        message: form.elements.message.value
+      };
+
+      const errors = validate(formValues, constraints);
+      if (errors) {
+        event.preventDefault();
+        const errorMessage = Object.values(errors)
+          .map(function(fieldValues) {
+            return fieldValues.join(', ');
+          })
+          .join("\n");
+
+        alert(errorMessage);
+      }
+    }, false);
+  </script>
+
+</body>
+
+</html>
