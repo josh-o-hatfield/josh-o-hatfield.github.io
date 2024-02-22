@@ -1241,30 +1241,21 @@ main {
   #CONTACT
 \*-----------------------------------*/
 
-.mapbox {
-  position: relative;
-  height: 250px;
+.map-container {
+  /* Container with manual height and widths to display map with the indentifier below */
+  height: 380px;
   width: 100%;
-  border-radius: 16px;
-  margin-bottom: 30px;
-  border: 1px solid var(--jet);
-  overflow: hidden;
+  padding: 0 0 0 0;
+  margin: 0 auto;
+  border-radius: 18px; 
+  margin-bottom: 20px;
+  background-color: red;
 }
 
-.mapbox figure { height: 100%; }
-
-.mapbox iframe {
+#map {
+  display: block;
+  height: 100%;
   width: 100%;
-  height: 100%;
-  border: none;
-  filter: grayscale(1) invert(1);
-}
-
-/* Always set the map height explicitly to define the size of the div
-* element that contains the map. */
-gmp-map {
-  height: 100%;
-  filter: grayscale(1) invert(1);
 }
 
 .contact-form { margin-bottom: 10px; }
@@ -1665,7 +1656,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #CONTACT
    */
 
-  .mapbox {
+  .map-container {
     height: 380px;
     border-radius: 18px;
   }

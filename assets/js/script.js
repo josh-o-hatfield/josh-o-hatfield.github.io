@@ -157,3 +157,13 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// Map plugin integration
+const map = L.map('map').setView([26.459, -82.1], 11);
+
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+var marker = L.marker([26.459, -82.1]).addTo(map);
+marker.bindPopup("<strong>Sanibel Island, FL</strong>").openPopup();

@@ -13,9 +13,12 @@ goals and trajectories, a viewable and downloable resume, a showcase of various 
   <!--
     - favicon
   -->
-  <link rel="icon" href="assets/images/linkedin-picture.jpg">
+  <link rel="icon" href="assets/images/profile-picture.png">
 
-  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxxjY18n23D87bAAPy5vGJVzkQ5pqBiK0&callback=console.debug&libraries=maps,marker&v=beta"></script>
+  <!-- Leaflet Plugin Attribution: https://leafletjs.com/examples/quick-start/
+	Leaflet plugin created by Volodymyr Agafonkin -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
 
   <!--
     - custom css link
@@ -1082,10 +1085,8 @@ goals and trajectories, a viewable and downloable resume, a showcase of various 
           <h2 class="h2 article-title">Contact</h2>
         </header>
 
-        <section class="mapbox" data-mapbox>
-          <gmp-map center="39.61431884765625,-86.10682678222656" zoom="14" map-id="DEMO_MAP_ID">
-            <gmp-advanced-marker position="39.61431884765625,-86.10682678222656" title="My location"></gmp-advanced-marker>
-          </gmp-map>
+        <section class="map-container">
+          <div id="map"></div>
         </section>
 
         <section class="contact-form">
@@ -1093,10 +1094,10 @@ goals and trajectories, a viewable and downloable resume, a showcase of various 
           <h3 class="h3 form-title">Contact Form</h3>
 
           <form method="post" class="form" data-form>
-          <?php
+          <!-- <?php
             $errorMessage = ''; // Define $errorMessage
             echo(!empty($errorMessage) ? $errorMessage : '');
-          ?>
+          ?> -->
 
             <div class="input-wrapper">
               <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
@@ -1123,8 +1124,11 @@ goals and trajectories, a viewable and downloable resume, a showcase of various 
 
 
 
+  
 
-
+  <!-- Leaflet JavaScript source; attribution in <head> for link and author -->
+	<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 
   <!--
     - custom js link
@@ -1137,41 +1141,6 @@ goals and trajectories, a viewable and downloable resume, a showcase of various 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
-  <script>
-    const constraints = {
-      name: {
-        presence: { allowEmpty: false }
-      },
-      email: {
-        presence: { allowEmpty: false },
-        email: true
-      },
-      message: {
-        presence: { allowEmpty: false }
-      }
-    };
-
-    const form = document.getElementById('contact-form');
-    form.addEventListener('submit', function(event) {
-      const formValues = {
-        name: form.elements.name.value,
-        email: form.elements.email.value,
-        message: form.elements.message.value
-      };
-
-      const errors = validate(formValues, constraints);
-      if (errors) {
-        event.preventDefault();
-        const errorMessage = Object.values(errors)
-          .map(function(fieldValues) {
-            return fieldValues.join(', ');
-          })
-          .join("\n");
-
-        alert(errorMessage);
-      }
-    }, false);
-  </script>
 
 </body>
 
