@@ -159,11 +159,18 @@ for (let i = 0; i < navigationLinks.length; i++) {
 }
 
 // Map plugin integration
-const map = L.map('map').setView([26.459, -82.1], 11);
+const mapDiv = document.getElementById("map");
 
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+const map = L.map(mapDiv).setView([39.6137, -86.1067], 12);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-var marker = L.marker([26.459, -82.1]).addTo(map);
-marker.bindPopup("<strong>Sanibel Island, FL</strong>").openPopup();
+var marker = L.marker([39.6137, -86.1067]).addTo(map);
+marker.bindPopup("<strong>Greenwood, IN</strong>");
+
+const resizeObserver = new ResizeObserver(() => {
+  map.invalidateSize();
+});
+
+resizeObserver.observe(mapDiv);

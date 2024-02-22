@@ -15,10 +15,9 @@ goals and trajectories, a viewable and downloable resume, a showcase of various 
   -->
   <link rel="icon" href="assets/images/profile-picture.png">
 
-  <!-- Leaflet Plugin Attribution: https://leafletjs.com/examples/quick-start/
-	Leaflet plugin created by Volodymyr Agafonkin -->
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
 
   <!--
     - custom css link
@@ -108,9 +107,9 @@ goals and trajectories, a viewable and downloable resume, a showcase of various 
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+              <p class="contact-title">Age</p>
 
-              <time datetime="1982-06-23">July 22, 2001</time>
+              <time datetime="1982-06-23">22</time>
             </div>
 
           </li>
@@ -1085,9 +1084,9 @@ goals and trajectories, a viewable and downloable resume, a showcase of various 
           <h2 class="h2 article-title">Contact</h2>
         </header>
 
-        <section class="map-container">
+        <div class="map-container">
           <div id="map"></div>
-        </section>
+        </div>
 
         <section class="contact-form">
 
@@ -1107,10 +1106,10 @@ goals and trajectories, a viewable and downloable resume, a showcase of various 
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" data-form-btn>
+            <a class="form-btn" href="index.html" data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
-            </button>
+            </a>
 
           </form>
 
@@ -1124,11 +1123,12 @@ goals and trajectories, a viewable and downloable resume, a showcase of various 
 
 
 
-  
 
-  <!-- Leaflet JavaScript source; attribution in <head> for link and author -->
-	<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
 
   <!--
     - custom js link
